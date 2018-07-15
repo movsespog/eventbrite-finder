@@ -1,6 +1,7 @@
-sudo apt-get install libtool automake autoconf nasm
+This simple application get event used eventbrite api.
 
-npm install
+To run this application run 
+1)npm install
 
 
-npm start 
+2)npm start 

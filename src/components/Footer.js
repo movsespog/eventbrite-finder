@@ -1,6 +1,7 @@
 import React from 'react';
 import {NavLink} from 'react-router-dom';
 import FontAwesome from 'react-fontawesome';
+import 'font-awesome/css/font-awesome.min.css';
 
 
 export const Footer = () => (

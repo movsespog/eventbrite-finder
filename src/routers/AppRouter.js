@@ -4,6 +4,7 @@ import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import HomePage from '../components/pages/HomePage';
+import PageNotFound from '../components/pages/PageNotFound';
 import Browse from '../components/pages/Browse';
 import SignIn from '../components/auth/SignIn';
 import SignUp from '../components/auth/SignUp';
@@ -24,6 +25,7 @@ const AppRouter = () => (
                 <Route path="/signin" component={AnimatedPage(SignIn)} />
                 <Route path="/signout" component={AnimatedPage(SignOut)} />
                 <Route path="/event/:id" component={AnimatedPage(EventPage)} />
+                <Route component={AnimatedPage(PageNotFound)}/>
             </Switch>
             <Footer/>
         </div>
