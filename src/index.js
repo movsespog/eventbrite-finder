@@ -5,7 +5,7 @@ import { Provider } from 'react-redux';
 import ConfigureStore from './store/ConfigureStore';
 import {SIGN_USER_IN} from './actions/types';
 
-import './styles/styles.scss';
+import './styles/styles.css';
 import 'normalize.css/normalize.css';
 import 'antd/dist/antd.css';
 
